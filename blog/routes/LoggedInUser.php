@@ -42,6 +42,6 @@ Route::get('/space/booking_report/{status?}','User\UserController@bookingSpaceRe
 Route::get('/enquiry-report','User\UserController@enquiry');
 
 
-Route::post('/resturents','User\UserController@showResturents')
+Route::post('/resturents','User\UserController@showResturents');
 	
 });
